@@ -28,11 +28,15 @@ library Constants {
     uint256 private constant BOOTSTRAPPING_PRICE = 154e16; // 1.54 USDC (targeting 4.5% inflation)
 
     /* Oracle */
-    address private constant USDC = address(0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48);
+    // BinanceUSD
+    address private constant USDC = address(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56);
     uint256 private constant ORACLE_RESERVE_MINIMUM = 1e10; // 10,000 USDC
 
     /* Bonding */
     uint256 private constant INITIAL_STAKE_MULTIPLE = 1e6; // 100 DSD -> 100M DSDS
+
+    // bootstrap mint program
+    address private constant TREASURE = address(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56);
 
     /* Epoch */
     struct EpochStrategy {
@@ -72,6 +76,10 @@ library Constants {
     /**
      * Getters
      */
+    function getTreasureAddress() internal pure returns (address) {
+        return TREASURE;
+    }
+
     function getUsdcAddress() internal pure returns (address) {
         return USDC;
     }

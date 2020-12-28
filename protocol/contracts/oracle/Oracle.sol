@@ -31,7 +31,12 @@ contract Oracle is IOracle {
     using Decimal for Decimal.D256;
 
     bytes32 private constant FILE = "Oracle";
-    address private constant UNISWAP_FACTORY = address(0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f);
+
+    // streetswap mainnet
+    //address private constant UNISWAP_FACTORY = address(0xac653ce27e04c6ac565fd87f18128ad33ca03ba2);
+
+    // choco testnet
+    address private constant UNISWAP_FACTORY = address(0x4e0fe5a2505E1420F01c947C3F374A20443Eeb9f);
 
     address internal _dao;
     address internal _dollar;

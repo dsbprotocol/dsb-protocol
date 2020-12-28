@@ -25,7 +25,9 @@ contract TestnetUSDC is ERC20Detailed, ERC20Burnable, IUSDC {
     constructor()
     ERC20Detailed("USD//C", "USDC", 6)
     public
-    { }
+    {
+        _mint(msg.sender, 10 ether);
+    }
 
     function mint(address account, uint256 amount) external returns (bool) {
         _mint(account, amount);
