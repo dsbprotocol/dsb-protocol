@@ -25,8 +25,11 @@ is available [here](https://github.com/bitdeep/dsb-protocol/blob/master/whitepap
 - `0x70A87e1b97436D2F194B8B9EBF337bFc7521C70f` **LP Incentivation Pool** (Pool)
 
 ### testnet
-- `0xED402d14c5d3Aa6Dec02d8702D4b9571aA5C11FA` **DAO (DSDS)** - Root
-  proxy to: `0x5dD9b8805abDC763582B21f95ed119FC26b13c05` Implementation.
+- `0xE8567F5aEC1a1537320C47484499572380A8E60d` **DAO (DSDS)** - Root
+  https://testnet.bscscan.com/address/0xE8567F5aEC1a1537320C47484499572380A8E60d#contracts
+  
+  proxy to: `0x94089C46bd995ae377dF2e1E63776E230aef149E` Implementation.
+  https://testnet.bscscan.com/address/0x94089C46bd995ae377dF2e1E63776E230aef149E#contracts
 
 - `0x0` **DSD** - Dollar
 - `0x0` **Oracle** - (created by Root)

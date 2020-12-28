@@ -1,3 +1,4 @@
+require('dotenv').config();
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const fs = require('fs');
 const mnemonic = fs.readFileSync("/.crypto/dsd/.secret").toString().trim();
@@ -42,6 +43,9 @@ module.exports = {
   },
   plugins: [
     'truffle-plugin-verify'
-  ]
-
+  ],
+  api_keys: {
+    etherscan: process.env.etherscan,
+    bscscan: process.env.bscscan
+  }
 };

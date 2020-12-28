@@ -36,7 +36,7 @@ library Constants {
     uint256 private constant INITIAL_STAKE_MULTIPLE = 1e6; // 100 DSD -> 100M DSDS
 
     // bootstrap mint program
-    address private constant TREASURE = address(0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56);
+    address private constant TREASURE = address(0x286011A1bd427AC9Ac5AFde796994D414896CC16); // INDEX=0
 
     /* Epoch */
     struct EpochStrategy {
