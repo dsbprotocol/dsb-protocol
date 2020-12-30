@@ -33,6 +33,9 @@ contract Deployer1 is State, Permission, Upgradeable {
     function implement(address implementation) external {
         upgradeTo(implementation);
     }
+    function dollar() public view returns (IDollar) {
+        return _state.provider.dollar;
+    }
 }
 
 contract Deployer2 is State, Permission, Upgradeable {
@@ -44,6 +47,9 @@ contract Deployer2 is State, Permission, Upgradeable {
     function implement(address implementation) external {
         upgradeTo(implementation);
     }
+    function oracle() public view returns (IOracle) {
+        return _state.provider.oracle;
+    }
 }
 
 contract Deployer3 is State, Permission, Upgradeable {
@@ -53,5 +59,11 @@ contract Deployer3 is State, Permission, Upgradeable {
 
     function implement(address implementation) external {
         upgradeTo(implementation);
+    }
+    function pool() public view returns (address) {
+        return _state.provider.pool;
+    }
+    function pair() public view returns (address) {
+        return oracle().pair();
     }
 }

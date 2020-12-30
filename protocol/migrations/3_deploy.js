@@ -21,8 +21,15 @@ async function deployTestnet(deployer) {
     const implementation = await deployer.deploy(Implementation);
     await rootAsD3.implement(implementation.address);
 
+    console.log('rootAsD1', rootAsD1.address);
+    console.log('rootAsD2', rootAsD2.address);
+    console.log('rootAsD3', rootAsD3.address);
     console.log('Root', Root.address);
     console.log('Implementation', Implementation.address);
+    console.log('dollar', await rootAsD1.dollar());
+    console.log('oracle', await rootAsD2.oracle());
+    console.log('pool', await rootAsD3.pool());
+    //console.log('oracle pair', await rootAsD3.pair());
 
 }
 

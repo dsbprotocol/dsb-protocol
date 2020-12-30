@@ -25,17 +25,15 @@ is available [here](https://github.com/bitdeep/dsb-protocol/blob/master/whitepap
 - `0x70A87e1b97436D2F194B8B9EBF337bFc7521C70f` **LP Incentivation Pool** (Pool)
 
 ### testnet
-- `0xE8567F5aEC1a1537320C47484499572380A8E60d` **DAO (DSDS)** - Root
-  https://testnet.bscscan.com/address/0xE8567F5aEC1a1537320C47484499572380A8E60d#contracts
-  
-  proxy to: `0x94089C46bd995ae377dF2e1E63776E230aef149E` Implementation.
-  https://testnet.bscscan.com/address/0x94089C46bd995ae377dF2e1E63776E230aef149E#contracts
-
-- `0x0` **DSD** - Dollar
-- `0x0` **Oracle** - (created by Root)
-- `0x0` **UniswapV2 USDC:DSD Pair**
-- `0x0` **LP Incentivation Pool** (Pool)
-
+- `0xaB397274Ef41DE0a29F44CF7e42224c823aa34Ae` **DAO (DSDS)** - Root
+- `0x1469d6D9d7dF8c94C20571cE97c77647A9c8A61F` Implementation
+- `0xb33C3e51d1Cc68176c3f17aAfe90668dbd969478` **DSD** - Dollar
+- `0xbBCCdFD1AC2A84E881c01cc3EdD17CB5954b769d` **Oracle** - (created by Root)
+- `0x03cfbfb7132af5caa25bfeeb0989cdb879b578bb` **UniswapV2 USDC:DSD Pair**
+- `0x9BA9776ca8922AB737d7Da001389cbF25F49e63c` **LP Incentivation Pool** (Pool)
+- `0x4e0fe5a2505E1420F01c947C3F374A20443Eeb9f` UNISWAP_FACTORY
+- `0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56` BUSD: Reference Currency
+- `0x286011A1bd427AC9Ac5AFde796994D414896CC16` Treasure
 
 ## audit of forked codebase
 
