@@ -32,6 +32,7 @@ is available [here](https://github.com/bitdeep/dsb-protocol/blob/master/whitepap
 - `0x03cfbfb7132af5caa25bfeeb0989cdb879b578bb` **UniswapV2 USDC:DSD Pair**
 - `0x9BA9776ca8922AB737d7Da001389cbF25F49e63c` **LP Incentivation Pool** (Pool)
 - `0x4e0fe5a2505E1420F01c947C3F374A20443Eeb9f` UNISWAP_FACTORY
+- `0x3b068579b563b61972371dc2550909046c8A60D7` UniswapV2Router02
 - `0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56` BUSD: Reference Currency
 - `0x286011A1bd427AC9Ac5AFde796994D414896CC16` Treasure
 
